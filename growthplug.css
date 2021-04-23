@@ -230,26 +230,29 @@
     url(hsp.jpg);
 }
 
+.parallax__hd {
+  color: seashell;
+  text: shadow 5px;
+  padding-top: 30px;
+}
+
 .parallax__inner {
   padding: 30px;
-  padding-top: 50px;
-
+  
+  
   border: solid 1px;
   height: 260px;
-  width: 420px;
-  margin: auto;
+  width: 380px;
+  margin: 20px auto;
   border-radius: 20px;
-  padding: auto;
+  
   color: seashell;
   background-color: rgba(0, 0, 0, 0.4);
   font-size: large;
   font-weight: 400;
 }
 
-.parallax__hd {
-  color: seashell;
-  text: shadow 5px;
-}
+
 
 .insurance {
   font-size: 30px;
