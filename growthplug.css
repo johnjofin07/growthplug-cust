@@ -1,4 +1,5 @@
 #main {
+  margin: 0;
   width: 100%;
   overflow-x: hidden;
 }
@@ -9,6 +10,8 @@
 }
 .navbar {
   min-height: 20px !important;
+
+  width: 100% !important;
 }
 
 .nav {
@@ -31,14 +34,12 @@
 }
 
 .tooth__img {
-
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   width: 100%;
   margin: auto;
-  
 
   height: 100vh;
 
@@ -117,16 +118,13 @@
   font-size: large;
 }
 
-.grid__intro__btncontainer {
-  
-}
+
 
 .intro__btn {
-  
   font-size: medium;
   font-weight: 500;
- 
-  margin:10px auto;
+
+  margin: 10px auto;
 }
 
 .dr {
@@ -238,27 +236,25 @@
 
 .parallax__hd {
   color: seashell;
-  text: shadow 5px;
+  
   padding-top: 30px;
 }
 
 .parallax__inner {
   padding: 30px;
-  
-  
+
   border: solid 1px;
-  height: 260px;
-  width: 380px;
+
   margin: 20px auto;
   border-radius: 20px;
-  
+  width: 90%;
+  max-width: 400px;
+
   color: seashell;
   background-color: rgba(0, 0, 0, 0.4);
   font-size: large;
   font-weight: 400;
 }
-
-
 
 .insurance {
   font-size: 30px;
@@ -266,7 +262,8 @@
 
   font-weight: 500;
   background-color: #f9fbfa;
-  padding-top: 30px;
+
+  padding: 30px 10px;
 }
 
 .insurance__subtxt {
@@ -281,7 +278,7 @@
 .insurance__img {
   width: 100%;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: 20px auto;
 }
 .insurance__btn__div {
   text-align: center;
