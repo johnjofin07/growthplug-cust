@@ -268,7 +268,9 @@
   font-weight: 500;
   background-color: #f9fbfa;
 
-  padding: 30px 10px;
+  padding-top: 40px;
+  padding-left: 10px;
+  padding-right: 10px;
 }
 
 .insurance__subtxt {
@@ -356,6 +358,8 @@
   height: 302px;
   width: 100%;
   margin-bottom: 30vh;
+  margin:100px auto;
+  
 }
 
 .gmap_canvas {
