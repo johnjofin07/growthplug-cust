@@ -75,6 +75,11 @@
   fill: currentColor;
   width: 160px;
 }
+
+.float__btn:hover {
+  color: #00df25;
+}
+
 .svg {
   margin-right: 5px;
   padding: 0.5px;
