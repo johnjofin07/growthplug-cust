@@ -30,7 +30,7 @@
   font-size: medium;
   
   
-  margin: 0 10px;
+  margin: 0 5px;
   max-width: 100vw;
 }
 
@@ -369,3 +369,13 @@
   margin-top: 50px;
   margin-left: 25px;
 }
+
+
+
+
+
+
+body {
+	padding-top:70px;
+}
+
