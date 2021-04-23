@@ -3,18 +3,20 @@
   overflow-x: hidden;
 }
 
-.navbar-nav > li > a {padding-top:4px !important; padding-bottom:4px !important;}
-.navbar {min-height:20px !important}
-
+.navbar-nav > li > a {
+  padding-top: 4px !important;
+  padding-bottom: 4px !important;
+}
+.navbar {
+  min-height: 20px !important;
+}
 
 .nav {
   position: fixed;
   top: 0;
   width: 100%;
- z-index: 500;
+  z-index: 500;
 }
-
-
 
 .dropdown:hover > .dropdown-menu {
   display: block;
@@ -22,11 +24,10 @@
 }
 
 .nav__content {
-    font-size: medium;
-    
-    margin: 0 10px;
-    max-width: 100vw;
-                        
+  font-size: medium;
+
+  margin: 0 10px;
+  max-width: 100vw;
 }
 
 .tooth__img {
@@ -46,8 +47,6 @@
 }
 
 .logo {
-
-  
   height: auto;
   width: 300px;
   margin-top: 15%;
@@ -63,21 +62,17 @@
   top: 90px;
   right: 20px;
   border-radius: 10px;
-  border-color:rgba(0, 0, 0, 0.4);
+  border-color: rgba(0, 0, 0, 0.4);
   background-color: rgba(0, 0, 0, 0.7);
   padding: 11px;
   z-index: 1000;
   color: aliceblue;
-  fill:currentColor;
+  fill: currentColor;
   width: 160px;
-  
-  
 }
 .svg {
- margin-right: 5px;
- padding: 0.5px;
- 
-
+  margin-right: 5px;
+  padding: 0.5px;
 }
 
 .apoinment__button {
@@ -86,38 +81,27 @@
   padding: 12px;
   border-color: rgb(255, 255, 255);
   border-width: 5px;
-  
+
   background-color: rgb(61, 81, 255);
   color: white;
   margin-top: 30px;
 }
 
 .newpatient__div {
-  display: flex;
-  
-  flex-direction: column;
- align-items: center;
- justify-content: center;
-  
-  margin: 30px auto;
-  height: 70vh;
-
+  margin: 200px auto;
+  height: 25vh;
 }
 
 .newpatient__hd {
-  
-  margin-top: 40px;
- 
-
-
+  text-align: center;
 }
 
-
 .newpatient__sub {
-  
+  text-align: center;
+
   font-weight: 400;
   color: rgb(148, 148, 148);
-  margin-top: 30px;
+  margin-top: 40px;
   text-transform: uppercase;
   font-size: large;
 }
@@ -129,14 +113,12 @@
 .intro__btn {
   font-size: large;
   font-weight: 500;
-  width: 90%;
+  max-width: 99%;
   margin: 20px 10px;
-  
 }
 
 .dr {
   margin-top: 30px;
-  
 }
 
 .dr__name {
@@ -148,14 +130,6 @@
   text-align: center;
   margin-top: 100px;
 }
-
-
-
-
-
-
-
-
 
 .dr__img {
   width: 350px;
@@ -205,12 +179,11 @@
 }
 
 .backgound__color {
-  background-color: #DBF2E3;
+  background-color: #dbf2e3;
 }
 
 .after__btn__text {
   text-align: center;
-  
 }
 
 .dr__names {
@@ -227,8 +200,6 @@
   max-width: 300px;
 }
 
-
-
 .dr__container__div {
   display: flex;
   flex-direction: column;
@@ -236,7 +207,6 @@
 
   margin: 12px auto;
 }
-
 
 .parallax {
   background-image: url("hsp.jpg");
@@ -273,13 +243,12 @@
 .parallax__hd {
   color: seashell;
   text: shadow 5px;
-  
 }
 
 .insurance {
   font-size: 30px;
   text-align: center;
-  
+
   font-weight: 500;
   background-color: #f9fbfa;
   padding-top: 30px;
@@ -288,7 +257,7 @@
 .insurance__subtxt {
   font-size: large;
   color: rgb(117, 117, 117);
-  
+
   font-weight: 300;
   padding-top: 30px;
   text-align: center;
@@ -300,7 +269,6 @@
   margin: 0 auto;
 }
 .insurance__btn__div {
-  
   text-align: center;
   background-color: #f9fbfa;
   padding-top: 50px;
@@ -326,56 +294,61 @@
 
 .foot__end {
   margin-top: 30px;
-  background-color:black;
+  background-color: black;
   color: rgb(247, 247, 247);
   text-align: center;
   padding: 15px;
 }
 
 .underline {
-  text-decoration: none; 
-  position: relative; 
-  }
- 
+  text-decoration: none;
+  position: relative;
+}
 
 .underline:after {
-   position: absolute;
-   content: '';
-   height: 3px;
- 
-   bottom: -5px; 
-   margin: 0 auto;
- left: 0;
-   right: 0;
- width: 10%;
+  position: absolute;
+  content: "";
+  height: 3px;
 
- background: green;
- 
+  bottom: -5px;
+  margin: 0 auto;
+  left: 0;
+  right: 0;
+  width: 10%;
 
-   -o-transition:.5s;
-   -ms-transition:.5s;
-   -moz-transition:.5s;
-   -webkit-transition:.5s;
-   transition:.5s;
+  background: green;
+
+  -o-transition: 0.5s;
+  -ms-transition: 0.5s;
+  -moz-transition: 0.5s;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
 }
-
-
 
 .underline:hover:after {
- width: 15%;
- background: black;
- cursor: default;
+  width: 15%;
+  background: black;
+  cursor: default;
 }
 
-
-.gmap_canvas {
-  overflow:hidden;background:none!important;height:500px;width:1080px;
-}
 .mapouter {
   display: flex;
   justify-content: center;
-  position:relative;text-align:right;height:500px;width:100%;
-  
-  overflow: hidden;
+  position: relative;
+  text-align: right;
+  height: 302px;
+  width: 100%;
+  margin-bottom: 30vh;
 }
 
+.gmap_canvas {
+  overflow: hidden;
+  background: none !important;
+  height: 302px;
+  width: 600px;
+}
+
+.loc {
+  margin-top: 50px;
+  margin-left: 100px;
+}
