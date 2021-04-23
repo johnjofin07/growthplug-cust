@@ -112,14 +112,15 @@
 }
 
 .grid__intro__btncontainer {
-  text-align: center;
+  
 }
 
 .intro__btn {
-  font-size: large;
+  
+  font-size: medium;
   font-weight: 500;
-  max-width: 99%;
-  margin: 20px 10px;
+ 
+  margin:10px auto;
 }
 
 .dr {
@@ -355,5 +356,5 @@
 
 .loc {
   margin-top: 50px;
-  margin-left: 100px;
+  margin-left: 25px;
 }
